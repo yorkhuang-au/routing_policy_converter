@@ -1,0 +1,182 @@
+2015-04-17 22:25:08,930  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:25:08,932  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:25:29,858  WARN [Worker-3] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:25:29,859  WARN [Worker-3] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:25:31,246 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - java.lang.Exception
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$getOrCreateUnitOf$1.apply(Global.scala:244)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$getOrCreateUnitOf$1.apply(Global.scala:244)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.collection.MapLike$class.getOrElse(MapLike.scala:128)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.collection.AbstractMap.getOrElse(Map.scala:59)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global.getOrCreateUnitOf(Global.scala:244)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global.typedTree(Global.scala:820)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.scala$tools$nsc$interactive$ProgramInstrumenter$Instrumenter$$instrumentation(ProgramInstrumenter.scala:31)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$$anonfun$askInstrumentation$1.apply(ProgramInstrumenter.scala:15)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$$anonfun$askInstrumentation$1.apply(ProgramInstrumenter.scala:15)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:688)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:688)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+2015-04-17 22:25:31,253 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.askInstrumentation(ProgramInstrumenter.scala:14)
+2015-04-17 22:25:31,254 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$1.apply$mcV$sp(ProgramInstrumenter.scala:52)
+2015-04-17 22:25:31,254 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$1.apply(ProgramInstrumenter.scala:52)
+2015-04-17 22:25:31,254 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$1.apply(ProgramInstrumenter.scala:52)
+2015-04-17 22:25:31,254 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+2015-04-17 22:25:31,254 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:444)
+2015-04-17 22:25:31,254 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.util.control.Breaks.breakable(Breaks.scala:38)
+2015-04-17 22:25:31,254 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+2015-04-17 22:25:31,254 ERROR [Scala Presentation Compiler [policy_converter]] - System.err - at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2015-04-17 22:25:33,636  WARN [Worker-0] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:25:33,636  WARN [Worker-0] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:31:55,896  WARN [Worker-6] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:31:55,897  WARN [Worker-6] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:31:57,611  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:31:57,645  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:32:34,874  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:32:34,874  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:32:36,024  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:32:36,024  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:32:51,152  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:32:51,153  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:32:52,331  WARN [Worker-6] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:32:52,331  WARN [Worker-6] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:33:30,370  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:33:30,371  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:33:31,449  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:33:31,449  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:34:33,715  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:34:33,716  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:34:34,795  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:34:34,796  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:34:53,148  WARN [Worker-6] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:34:53,148  WARN [Worker-6] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:34:53,804 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-04-17 22:34:53,804 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-04-17 22:34:53,804 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-04-17 22:34:54,179  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:34:54,180  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:35:31,639  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:35:31,639  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:35:33,418  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:35:33,418  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:37:04,088  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:37:04,088  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:37:05,198  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:37:05,198  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:38:04,715  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:38:04,715  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:38:26,318  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:38:26,319  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:38:36,534  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:38:36,534  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:39:29,780  WARN [Worker-11] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:39:29,781  WARN [Worker-11] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:39:36,554  WARN [Worker-6] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:39:36,555  WARN [Worker-6] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:40:04,364  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:40:04,364  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:40:54,436  WARN [Worker-12] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:40:54,436  WARN [Worker-12] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:41:19,091 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-04-17 22:41:23,337  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:41:23,337  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:41:36,810  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:41:36,810  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:42:41,380  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:42:41,380  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:42:48,010  WARN [Worker-10] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:42:48,011  WARN [Worker-10] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:42:54,048  WARN [Worker-11] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:42:54,048  WARN [Worker-11] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:43:26,505  WARN [Worker-10] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:43:26,505  WARN [Worker-10] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:43:43,138  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:43:43,138  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:44:59,921  WARN [Worker-12] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:44:59,922  WARN [Worker-12] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:46:14,964  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:46:14,964  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:47:49,874  WARN [Worker-13] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:47:49,875  WARN [Worker-13] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:47:58,031  WARN [Worker-9] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:47:58,031  WARN [Worker-9] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:48:21,148 ERROR [Worker-9] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-04-17 22:48:21,148 ERROR [Worker-9] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-04-17 22:48:21,148 ERROR [Worker-9] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-04-17 22:48:30,965  WARN [Worker-11] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:48:30,965  WARN [Worker-11] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:50:06,066  WARN [Worker-14] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:50:06,066  WARN [Worker-14] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:54:06,075  WARN [Worker-10] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:54:06,076  WARN [Worker-10] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:56:04,728  WARN [Worker-19] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:56:04,728  WARN [Worker-19] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:56:47,013  WARN [Worker-10] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:56:47,013  WARN [Worker-10] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:57:40,841  WARN [Worker-19] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:57:40,841  WARN [Worker-19] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:57:47,776  WARN [Worker-10] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:57:47,776  WARN [Worker-10] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 22:58:02,288  WARN [Worker-19] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 22:58:02,288  WARN [Worker-19] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:00:26,248  WARN [Worker-19] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:00:26,248  WARN [Worker-19] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:01:25,791  WARN [Worker-20] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:01:25,791  WARN [Worker-20] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:11:06,683  WARN [Worker-25] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:11:06,683  WARN [Worker-25] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:12:09,230  WARN [Worker-19] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:12:09,230  WARN [Worker-19] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:12:48,486  WARN [Worker-24] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:12:48,487  WARN [Worker-24] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:13:36,034  WARN [Worker-24] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:13:36,034  WARN [Worker-24] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:14:47,806  WARN [Worker-26] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:14:47,806  WARN [Worker-26] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:15:08,065  WARN [Worker-28] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:15:08,066  WARN [Worker-28] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:16:29,629  WARN [Worker-10] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:16:29,629  WARN [Worker-10] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:18:02,168  WARN [Worker-27] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:18:02,168  WARN [Worker-27] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:18:31,193  WARN [Worker-27] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:18:31,193  WARN [Worker-27] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:18:56,912  WARN [Worker-27] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:18:56,913  WARN [Worker-27] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-04-17 23:33:30,775  WARN [Worker-32] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-04-17 23:33:30,776  WARN [Worker-32] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-20 23:24:40,790  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-20 23:24:40,800  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-20 23:24:41,950  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-20 23:24:41,950  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-20 23:25:46,914  WARN [main] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-20 23:25:46,915  WARN [main] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-20 23:43:03,237  WARN [Worker-3] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-20 23:43:03,238  WARN [Worker-3] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-20 23:45:50,247  WARN [Worker-3] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-20 23:45:50,248  WARN [Worker-3] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-20 23:47:15,914 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/local/eclipse/plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar'
+2015-05-20 23:47:15,925 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar'
+2015-05-20 23:47:15,987 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar'
+2015-05-20 23:47:18,271 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar'
+2015-05-20 23:47:18,298 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar'
+2015-05-20 23:47:18,310 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar'
+2015-05-20 23:47:18,404 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar'
+2015-05-20 23:47:18,489 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar'
+2015-05-20 23:47:18,495 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar'
+2015-05-20 23:47:18,498 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar'
+2015-05-20 23:47:18,499 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar'
+2015-05-20 23:47:18,504 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar'
+2015-05-20 23:47:18,545 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar'
+2015-05-20 23:47:18,563 ERROR [PyEdit initializer] - System.err - *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar'
+2015-05-21 09:13:13,189  WARN [Worker-3] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-21 09:13:13,202  WARN [Worker-3] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-21 09:13:15,323  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-21 09:13:15,323  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-21 16:24:58,041  WARN [Worker-2] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-21 16:24:58,046  WARN [Worker-2] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-21 16:24:58,048  WARN [Worker-5] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-21 16:24:58,054  WARN [Worker-5] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-21 16:25:01,328  WARN [Worker-0] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-21 16:25:01,328  WARN [Worker-0] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-21 23:20:17,950  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-21 23:20:17,955  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.

@@ -1,0 +1,23 @@
+
+package policy_converter
+
+import scala.io.Source
+
+object Converter {
+  def main(args: Array[String]) {
+    val c = new Converter()
+    
+  }
+}
+
+class Converter {
+  
+  val lines = Source.fromFile("/home/yhuang/routing_policy_converter/policy_converter/data/rtaultifw03-192.168.12.52.txt").getLines()
+                                                 
+  val hostnames = lines.filter { _.startsWith("name ") }.take(10)
+    .map { t => val v = t.split(" ")
+      (v(2) -> v(1))
+    }.toMap
+  
+  hostnames.foreach { println }
+}
