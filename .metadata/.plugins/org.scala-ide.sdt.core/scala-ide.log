@@ -180,3 +180,9 @@
 2015-05-21 16:25:01,328  WARN [Worker-0] - ScalaProject - Project policy_converter runs on platform default installation.
 2015-05-21 23:20:17,950  WARN [Worker-8] - ScalaProject - Project policy_converter has platform default sourceLevel.
 2015-05-21 23:20:17,955  WARN [Worker-8] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-22 13:56:23,617  WARN [Worker-5] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-22 13:56:23,622  WARN [Worker-5] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-22 13:56:23,619  WARN [Worker-6] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-22 13:56:23,633  WARN [Worker-6] - ScalaProject - Project policy_converter runs on platform default installation.
+2015-05-22 13:56:27,689  WARN [Worker-1] - ScalaProject - Project policy_converter has platform default sourceLevel.
+2015-05-22 13:56:27,690  WARN [Worker-1] - ScalaProject - Project policy_converter runs on platform default installation.
