@@ -7,8 +7,8 @@ import ipaddress
 import SubnetTree
 import sys
 import fileinput
-import os
-import linecache
+#import os
+#import linecache
 
 from _functools import reduce
 from ipaddress import AddressValueError
