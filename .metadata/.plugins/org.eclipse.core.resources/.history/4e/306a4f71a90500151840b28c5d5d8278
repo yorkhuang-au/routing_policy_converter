@@ -19,7 +19,7 @@ if len( sys.argv) != 3 :
           "     convert <source file> <destfile>\n")
     sys.exit( )
 
-#print("ok")
+print("ok")
 
 namelst = []
 routelst = []
@@ -94,7 +94,7 @@ routes = addRouteByNames(routelst, names)
 # except KeyError as err:
 #     print("Error: %s not found" % err)
      
-#print("load object groups")     
+print("load object groups")     
 ## Load all network object groups
 netGs = {}
 for t in netGLst:
@@ -131,9 +131,9 @@ for t in netGLst:
 #     print(k)
 #     print(v)
     
-#print( "Legato_Backup_Hosts" in netGs)
-#print("DMZ2_Legato_Backup_Hosts" in netGs)
-#print(netGs["DMZ2_Legato_Backup_Hosts"])
+print( "Legato_Backup_Hosts" in netGs)
+print("DMZ2_Legato_Backup_Hosts" in netGs)
+print(netGs["DMZ2_Legato_Backup_Hosts"])
 
 
 outf = open(sys.argv[2] + ".debug", "w")
@@ -206,17 +206,19 @@ for line in accesslst:
     
     outf.write("Good original=%s\n" % line)
     outf.write("    policy: %s protocol:%s action:%s source:%s dest:%s port=%s.\n" % (words[1], words[4], words[3], sr, dr, port) )
-
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d match source-address %s\n" % (sr, dr, words[1], seq, saddr ))
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d match destination-address %s\n" % (sr, dr, words[1], seq, daddr ))
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d match application %s\n" % (sr, dr, words[1], seq, port ))
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d then %s\n" % (sr, dr, words[1], seq, words[3] ))
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d then log session-init\n" % (sr, dr, words[1], seq ))
+    destf.write("set security policies from-zone %s to-zone %s policy %s_%d match source-address FF_Internet_Router" % (sr, dr, words[1], seq,  ))
     
+set  security policies from-zone outside to-zone inside policy internet_inbound_1 match destination-address Getronics_Management_Subnet
+set  security policies from-zone outside to-zone inside policy internet_inbound_1 match application tacacs
+set  security policies from-zone outside to-zone inside policy internet_inbound_1 then permit
+set  security policies from-zone outside to-zone inside policy internet_inbound_1 then log session-init
+    
+    
+     
+
 outf.close()
 destf.close()
 
-print("Ok")
 
 
 

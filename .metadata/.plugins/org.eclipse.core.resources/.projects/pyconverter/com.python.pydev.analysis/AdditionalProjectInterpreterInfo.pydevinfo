@@ -1,18 +1,20 @@
 -- VERSION_4
 -- START DISKCACHE
 /home/hadoop/routing_policy_converter/.metadata/.plugins/org.eclipse.core.resources/.projects/pyconverter/com.python.pydev.analysis/v2_indexcache
-pyconverter|1432311157000|/home/hadoop/routing_policy_converter/pyconverter/pyconverter.py
+pyconverter|1432866179000|/home/hadoop/routing_policy_converter/pyconverter/pyconverter.py
 -- END DISKCACHE
 -- START DICTIONARY
 1
 1=pyconverter
 -- END DICTIONARY
 -- START TREE 1
-17
+21
 acc|1|accesslst!11@
 add|1|addRouteByNames!10@
 cgn|1|cGName!11@
 cgt|1|cGType!11@
+dad|1|daddr!11@
+des|1|destf!11@
 dr|1|dr!11@
 gn|1|gn!11@
 ip|1|ip!11@
@@ -23,6 +25,8 @@ out|1|outf!11@
 por|1|port!11@
 pro|1|protocolLst!11@
 rou|2|routes!11@routelst!11@
+sad|1|saddr!11@
+seq|1|seq!11@
 ser|1|serviceGLst!11@
 sr|1|sr!11@
 wor|1|words!11@

@@ -19,7 +19,7 @@ if len( sys.argv) != 3 :
           "     convert <source file> <destfile>\n")
     sys.exit( )
 
-#print("ok")
+print("ok")
 
 namelst = []
 routelst = []
@@ -94,7 +94,7 @@ routes = addRouteByNames(routelst, names)
 # except KeyError as err:
 #     print("Error: %s not found" % err)
      
-#print("load object groups")     
+print("load object groups")     
 ## Load all network object groups
 netGs = {}
 for t in netGLst:
@@ -131,9 +131,9 @@ for t in netGLst:
 #     print(k)
 #     print(v)
     
-#print( "Legato_Backup_Hosts" in netGs)
-#print("DMZ2_Legato_Backup_Hosts" in netGs)
-#print(netGs["DMZ2_Legato_Backup_Hosts"])
+print( "Legato_Backup_Hosts" in netGs)
+print("DMZ2_Legato_Backup_Hosts" in netGs)
+print(netGs["DMZ2_Legato_Backup_Hosts"])
 
 
 outf = open(sys.argv[2] + ".debug", "w")
@@ -148,49 +148,37 @@ for line in accesslst:
     sr = ""
     dr = ""
     port = ""
-    saddr =""
-    daddr = ""
-    
     #print(line)
     if words[5] == "any" or words[4] not in ["udp","tcp"]:
         outf.write("Exception(Any, not udp/tcp). original=%s\n" % line)
         continue
     if words[5] == "host":
-        saddr = words[6]
         sr = routes[ names[ words[6] ] ]
     elif words[5] == "object-group":
-        saddr = words[6]
         sr = netGs[ words[6] ]
     else:
         if words[5] in names:
-            saddr = words[5]
             sr = routes[ ipaddress.IPv4Network( names[ words[5]] +"/" + words[6]).compressed ]
         else:
-            saddr = words[5]
             sr = routes[ ipaddress.IPv4Network( words[5] +"/" + words[6]).compressed ]
     if words[7] in ["any", "eq"] or sr =="":
         outf.write("Exception(Any) or source ip =%s. original=%s\n" % (sr, line) )
         continue
     if words[7] == "host":
         if words[8] in names:
-            daddr = words[8]
             dr = routes[ names[ words[8] ] ]
         else:
             try:
-                daddr = words[8]
                 dr = routes[ ipaddress.IPv4Address( words[8]).compressed ]
             except AddressValueError as err:
                 outf.write("Exception(Can't find host %s). original=$s\n" % (err, line) )
                 continue
     elif words[7] == "object-group":
-        daddr = words[8]
         dr = netGs[ words[8] ]
     else:
         if words[7] in names:
-            daddr = words[7]
             dr = routes[ ipaddress.IPv4Network( names[ words[7]] +"/" + words[8]).compressed ]
         else:
-            daddr = words[7]
             dr = routes[ ipaddress.IPv4Network( words[7] +"/" + words[8]).compressed ]
     
     if len(words) <= 9:
@@ -206,17 +194,19 @@ for line in accesslst:
     
     outf.write("Good original=%s\n" % line)
     outf.write("    policy: %s protocol:%s action:%s source:%s dest:%s port=%s.\n" % (words[1], words[4], words[3], sr, dr, port) )
-
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d match source-address %s\n" % (sr, dr, words[1], seq, saddr ))
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d match destination-address %s\n" % (sr, dr, words[1], seq, daddr ))
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d match application %s\n" % (sr, dr, words[1], seq, port ))
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d then %s\n" % (sr, dr, words[1], seq, words[3] ))
-    destf.write("set security policies from-zone %s to-zone %s policy %s_%d then log session-init\n" % (sr, dr, words[1], seq ))
+    destf.write("set security policies from-zone %s to-zone %s policy %s match source-address FF_Internet_Router" % (sr, dr, ))
     
+set  security policies from-zone outside to-zone inside policy internet_inbound_1 match destination-address Getronics_Management_Subnet
+set  security policies from-zone outside to-zone inside policy internet_inbound_1 match application tacacs
+set  security policies from-zone outside to-zone inside policy internet_inbound_1 then permit
+set  security policies from-zone outside to-zone inside policy internet_inbound_1 then log session-init
+    
+    
+     
+
 outf.close()
 destf.close()
 
-print("Ok")
 
 
 

@@ -1587,7 +1587,6 @@ samba.xattr_tdb|/usr/lib/python2.7/dist-packages/samba/xattr_tdb.so
 scanext|/usr/lib/python2.7/dist-packages/scanext.so
 sched|/usr/lib/python2.7/sched.py
 scipy
-scour|/usr/lib/python2.7/dist-packages/scour.py
 screen|/usr/lib/python2.7/dist-packages/screen.py
 select
 serial.__init__|/usr/lib/python2.7/dist-packages/serial/__init__.py
@@ -1658,8 +1657,6 @@ struct|/usr/lib/python2.7/struct.py
 subprocess|/usr/lib/python2.7/subprocess.py
 sunau|/usr/lib/python2.7/sunau.py
 sunaudio|/usr/lib/python2.7/sunaudio.py
-svg_regex|/usr/lib/python2.7/dist-packages/svg_regex.py
-svg_transform|/usr/lib/python2.7/dist-packages/svg_transform.py
 symbol|/usr/lib/python2.7/symbol.py
 symtable|/usr/lib/python2.7/symtable.py
 sys
@@ -2428,7 +2425,6 @@ xml.sax.xmlreader|/usr/lib/python2.7/xml/sax/xmlreader.py
 xmllib|/usr/lib/python2.7/xmllib.py
 xmlrpclib|/usr/lib/python2.7/xmlrpclib.py
 xxsubtype
-yocto_css|/usr/lib/python2.7/dist-packages/yocto_css.py
 zeitgeist.__init__|/usr/lib/python2.7/dist-packages/zeitgeist/__init__.py
 zeitgeist._ontology|/usr/lib/python2.7/dist-packages/zeitgeist/_ontology.py
 zeitgeist.client|/usr/lib/python2.7/dist-packages/zeitgeist/client.py

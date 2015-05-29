@@ -94,7 +94,7 @@ routes = addRouteByNames(routelst, names)
 # except KeyError as err:
 #     print("Error: %s not found" % err)
      
-#print("load object groups")     
+print("load object groups")     
 ## Load all network object groups
 netGs = {}
 for t in netGLst:
