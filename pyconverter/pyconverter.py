@@ -136,7 +136,8 @@ print("DMZ2_Legato_Backup_Hosts" in netGs)
 print(netGs["DMZ2_Legato_Backup_Hosts"])
 
 
-outf = open(sys.argv[2], "w")
+outf = open(sys.argv[2] + ".debug", "w")
+destf = open(sys.argv[2] , "w")
 
 for line in accesslst:
     words = line.split()
@@ -189,9 +190,12 @@ for line in accesslst:
     
     outf.write("Good original=%s\n" % line)
     outf.write("    policy: %s protocol:%s action:%s source:%s dest:%s port=%s.\n" % (words[1], words[4], words[3], sr, dr, port) )
+    
+    
      
 
 outf.close()
+destf.close()
 
 
 
