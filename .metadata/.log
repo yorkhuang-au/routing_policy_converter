@@ -2002,3 +2002,78 @@ java.util.NoSuchElementException: None.get
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-05-23 02:10:58.697 -----------------------------------------------
+eclipse.buildId=4.0.0-vfinal-20150305-1644-Typesafe
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.python.pydev.shared_core 1 1 2015-05-23 02:11:28.122
+!MESSAGE Unable to track file that does not exist: /usr/local/lib/python3.4/dist-packages/setuptools-16.0-py3.4.egg
+!STACK 0
+java.lang.RuntimeException: Unable to track file that does not exist: /usr/local/lib/python3.4/dist-packages/setuptools-16.0-py3.4.egg
+	at org.python.pydev.shared_core.log.Log.logInfo(Log.java:52)
+	at org.python.pydev.shared_core.path_watch.PathWatch.track(PathWatch.java:285)
+	at org.python.pydev.editor.codecompletion.revisited.SyncSystemModulesManagerScheduler.afterSetInfos(SyncSystemModulesManagerScheduler.java:462)
+	at org.python.pydev.editor.codecompletion.revisited.SyncSystemModulesManagerScheduler.afterSetInfos(SyncSystemModulesManagerScheduler.java:443)
+	at org.python.pydev.editor.codecompletion.revisited.SyncSystemModulesManagerScheduler.registerInterpreterManager(SyncSystemModulesManagerScheduler.java:66)
+	at org.python.pydev.editor.codecompletion.revisited.SyncSystemModulesManagerScheduler.start(SyncSystemModulesManagerScheduler.java:88)
+	at org.python.pydev.plugin.PydevPlugin$1.run(PydevPlugin.java:208)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 1 1 2015-05-23 02:11:28.142
+!MESSAGE Unable to track file that does not exist: /usr/local/lib/python3.4/dist-packages/pysubnettree-0.24-py3.4-linux-x86_64.egg
+!STACK 0
+java.lang.RuntimeException: Unable to track file that does not exist: /usr/local/lib/python3.4/dist-packages/pysubnettree-0.24-py3.4-linux-x86_64.egg
+	at org.python.pydev.shared_core.log.Log.logInfo(Log.java:52)
+	at org.python.pydev.shared_core.path_watch.PathWatch.track(PathWatch.java:285)
+	at org.python.pydev.editor.codecompletion.revisited.SyncSystemModulesManagerScheduler.afterSetInfos(SyncSystemModulesManagerScheduler.java:462)
+	at org.python.pydev.editor.codecompletion.revisited.SyncSystemModulesManagerScheduler.afterSetInfos(SyncSystemModulesManagerScheduler.java:443)
+	at org.python.pydev.editor.codecompletion.revisited.SyncSystemModulesManagerScheduler.registerInterpreterManager(SyncSystemModulesManagerScheduler.java:66)
+	at org.python.pydev.editor.codecompletion.revisited.SyncSystemModulesManagerScheduler.start(SyncSystemModulesManagerScheduler.java:88)
+	at org.python.pydev.plugin.PydevPlugin$1.run(PydevPlugin.java:208)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.zeroturnaround.eclipse.optimizer.plugin 1 0 2015-05-23 02:11:33.834
+!MESSAGE location of launcher INI: /home/hadoop/eclipse/eclipse.ini
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-05-23 02:11:42.739
+!MESSAGE The module SubnetTree could not be found nor created!
+!STACK 0
+java.lang.RuntimeException: The module SubnetTree could not be found nor created!
+	at org.python.pydev.core.log.Log.log(Log.java:54)
+	at org.python.pydev.editor.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.editor.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:765)
+	at org.python.pydev.editor.codecompletion.revisited.SystemModulesManager.getModuleWithoutBuiltins(SystemModulesManager.java:357)
+	at org.python.pydev.editor.codecompletion.revisited.ProjectModulesManager.getModuleAndRelatedModulesManager(ProjectModulesManager.java:211)
+	at org.python.pydev.editor.codecompletion.revisited.ProjectModulesManager.getModule(ProjectModulesManager.java:173)
+	at org.python.pydev.editor.codecompletion.revisited.ProjectModulesManager.getModule(ProjectModulesManager.java:159)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getModule(AbstractASTManager.java:465)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.findModuleFromPath(AbstractASTManager.java:2117)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2008)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:1887)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:186)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:167)
+	at com.python.pydev.analysis.visitors.Scope.addImportTokens(Scope.java:173)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.visitImport(AbstractScopeAnalyzerVisitor.java:556)
+	at org.python.pydev.parser.jython.ast.Import.accept(Import.java:79)
+	at org.python.pydev.parser.jython.ast.Module.traverse(Module.java:86)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.traverse(AbstractScopeAnalyzerVisitor.java:193)
+	at com.python.pydev.analysis.visitors.OccurrencesVisitor.traverse(OccurrencesVisitor.java:262)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitModule(VisitorBase.java:10)
+	at org.python.pydev.parser.jython.ast.Module.accept(Module.java:79)
+	at com.python.pydev.analysis.OccurrencesAnalyzer.analyzeDocument(OccurrencesAnalyzer.java:56)
+	at com.python.pydev.analysis.builder.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:234)
+	at com.python.pydev.analysis.builder.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:152)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-05-29 12:01:31.734 -----------------------------------------------
+eclipse.buildId=4.0.0-vfinal-20150305-1644-Typesafe
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.zeroturnaround.eclipse.optimizer.plugin 1 0 2015-05-29 12:01:56.055
+!MESSAGE location of launcher INI: /home/hadoop/eclipse/eclipse.ini
